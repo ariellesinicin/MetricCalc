@@ -15,6 +15,7 @@
 		A76ED1B326EE399400156E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76ED1B126EE399400156E7A /* LaunchScreen.storyboard */; };
 		A76ED1BE26EE399400156E7A /* MetricCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76ED1BD26EE399400156E7A /* MetricCalcTests.swift */; };
 		A76ED1C926EE399400156E7A /* MetricCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76ED1C826EE399400156E7A /* MetricCalcUITests.swift */; };
+		A76ED1D826EE3DB200156E7A /* MetricCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76ED1D726EE3DB200156E7A /* MetricCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A76ED1C426EE399400156E7A /* MetricCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76ED1C826EE399400156E7A /* MetricCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCalcUITests.swift; sourceTree = "<group>"; };
 		A76ED1CA26EE399400156E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76ED1D726EE3DB200156E7A /* MetricCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		A76ED1A526EE399300156E7A /* MetricCalc */ = {
 			isa = PBXGroup;
 			children = (
-				A76ED1A626EE399300156E7A /* AppDelegate.swift */,
-				A76ED1A826EE399300156E7A /* SceneDelegate.swift */,
+				A76ED1D626EE39AE00156E7A /* AppFiles */,
 				A76ED1AA26EE399300156E7A /* ViewController.swift */,
+				A76ED1D726EE3DB200156E7A /* MetricCalculator.swift */,
 				A76ED1AC26EE399300156E7A /* Main.storyboard */,
 				A76ED1AF26EE399400156E7A /* Assets.xcassets */,
 				A76ED1B126EE399400156E7A /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				A76ED1CA26EE399400156E7A /* Info.plist */,
 			);
 			path = MetricCalcUITests;
+			sourceTree = "<group>";
+		};
+		A76ED1D626EE39AE00156E7A /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A76ED1A626EE399300156E7A /* AppDelegate.swift */,
+				A76ED1A826EE399300156E7A /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				A76ED1AB26EE399300156E7A /* ViewController.swift in Sources */,
 				A76ED1A726EE399300156E7A /* AppDelegate.swift in Sources */,
 				A76ED1A926EE399300156E7A /* SceneDelegate.swift in Sources */,
+				A76ED1D826EE3DB200156E7A /* MetricCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
